@@ -37,9 +37,5 @@ setTimeout(() => {
 }, 1700);
 
 setTimeout(() => {
-  process.stdout.write('\r|   ');
-}, 1900);
-
-setTimeout(() => {
   process.stdout.write('\n');
-}, 2100)
+}, 1900)
